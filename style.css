@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000; 
+}
+.imagem{
+    background-image: url(imagens/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+    
+} 
+.caixa{
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+.logo{
+    margin: 20px;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav{
+    margin: 20px;
+    right: 0%;
+    list-style: none;
+    float: right;
+    
+    
+}
+nav li{
+    display: inline;
+    margin-left: 10px;
+    padding-left: 10px;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+    
+}
